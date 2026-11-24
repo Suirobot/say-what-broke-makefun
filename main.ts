@@ -7,7 +7,7 @@ import { dirname } from "node:path";
 const OUT = "/output/entry.txt";
 
 const LINE =
-  "Something went wrong. Specifically: your file saved to a server we switched off in March, and it saved perfectly.";
+  "Your document didn't fail to save. It saved beautifully - to a server we decommissioned in March.";
 
 mkdirSync(dirname(OUT), { recursive: true });
 writeFileSync(OUT, LINE, "utf8");
